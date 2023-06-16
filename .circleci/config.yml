@@ -12,7 +12,7 @@ jobs:
       - image: circleci/node:18
     branches:
       only:
-        - circleci-project-setup
+        - main
     # Add steps to the job
     # See: https://circleci.com/docs/configuration-reference/#steps
     steps:
