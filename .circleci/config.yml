@@ -19,11 +19,7 @@ jobs:
       - checkout
       - node/install:
           install-yarn: true
-<<<<<<< HEAD
           node-version: "18.16"
-=======
-          node-version: "16.13"
->>>>>>> a5855d075e1e469aeaca13735dcaa2a07eafc639
       - run:
           name: install
           command: yarn install
