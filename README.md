@@ -1,5 +1,13 @@
 [Apollo Client](https://www.apollographql.com/docs/react/)
 
+```
+git rebase -i HEAD~3
+
+git rebase --edit-todo
+
+git rebase --continue
+```
+
 //定义商品Item类
 // class Item {
 //   double price;
